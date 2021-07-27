@@ -8,7 +8,7 @@
 > git remote add github "https://github.com/. . ."
       git remote add origin "https://github.com/. . ."
 
-> git push github master
+> git push github master  or git push github "branchname"
       git push origin master
 >git pull github master
       git pull origin master
