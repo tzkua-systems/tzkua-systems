@@ -13,5 +13,7 @@
 >git pull github master
       git pull origin master
 
+> git clone "https://github.com/. . ."
+
 > git branch "branchname"
 > git checkout "branchname"
