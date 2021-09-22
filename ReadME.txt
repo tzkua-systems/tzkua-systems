@@ -3,6 +3,7 @@
 > git init
 > git status
 > ls
+> git diff
 > git add .
 > git status
 > git commit -m "comment"
