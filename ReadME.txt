@@ -1,10 +1,12 @@
 > git bash here
 
 > git init
+> git status
 > ls
 > git add .
 > git status
 > git commit -m "comment"
+> git log
 > git remote add github "https://github.com/. . ."
       git remote add origin "https://github.com/. . ."
 
