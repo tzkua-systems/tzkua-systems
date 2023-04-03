@@ -1,6 +1,9 @@
 > git config --list
 > git config --global user.name "username"
 > git config ---global user.email "user@email.com"
+> git config --global code.editor "'notepad++ location'"
+
+> git init
 > git remote add origin "url"
 > git remote -v
 > git branch -vv
@@ -13,6 +16,7 @@
 > ls
 > git diff
 > git add .
+            > git reset
 > git status
 > git commit -m "comment"
 > git log
