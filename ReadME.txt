@@ -1,3 +1,11 @@
+> git config --list
+> git config --global user.name "username"
+> git config ---global user.email "user@email.com"
+> git remote add origin "url"
+> git remote -v
+> git branch -vv
+
+>>>
 > git bash here
 
 > git init
