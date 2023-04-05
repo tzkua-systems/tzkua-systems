@@ -1,8 +1,29 @@
 
+install python
+install pip
 
+create virtual environment
+activate virtual environment
+install django
 
-
+> django-admin
+> django-admin startproject projectname
+> python manage.py
+> python manage.py startapp appname
 
 > pip freeze > requirements.txt
 > pip install -r requirements.txt
+
+create urls.py for every app
+from django.urls import path
+from . import views
+create list of urls to be mapped
+
+from django.http import HttpResponse
+
+from django.urls import path, include
+
+> python manage.py runserver
+>
+
 
