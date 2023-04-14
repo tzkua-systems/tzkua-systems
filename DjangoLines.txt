@@ -38,3 +38,12 @@ from django.urls import path, include
 >
 
 
+*
+.\env\scripts\activate
+$Env:GOOGLE_CLOUD_PROJECT = "atmotech"
+$Env:USE_CLOUD_SQL_AUTH_PROXY = "true"
+$Env:DEBUG = "true"
+$Env:DEVELOPMENT = "true"
+python3 manage.py runserver
+
+
