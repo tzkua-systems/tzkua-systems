@@ -2,9 +2,20 @@
 install python
 install pip
 
+Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy RemoteSigned
+Get-Execution-Policy
+
+& pipenv install autopep8 --dev
+
 create virtual environment
+> python -m venv env
 activate virtual environment
-install django
+> .\env\Scripts\activate
+
+
+
+> pip install django
 
 > django-admin
 > django-admin startproject projectname
